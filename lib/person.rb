@@ -1,6 +1,6 @@
 class Person
   #your code here
-  attr_accessor :name, :birthday, :hair_color, :eye_color, :height
+  attr_accessor :name, :birthday, :hair_color, :eye_color, :height, :weight
 
   def initialize(attributes)
     attributes.each {|key, value| self.send(("#{key}="), value)}
